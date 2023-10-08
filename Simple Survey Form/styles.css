@@ -1,0 +1,137 @@
+/* Name: Abhijeet Banerjee
+  G# 01349260
+  SWE 642*/
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+
+body{
+    line-height: 1.5;
+    background-color: #CBC3E3;
+    margin: auto;
+}
+
+h1{
+  color: #006633;
+}
+
+.title,
+.description{
+  font-family: 'Open Sans';
+  text-align: center;
+}
+
+.greet{
+  font-family: 'Open Sans';
+  text-align: center;
+  font-size: 150%;
+}
+
+.username{
+  font-family: 'Open Sans';
+  text-align: right;
+}
+
+form{
+  background:  #FFFF;
+  padding: 2.5rem;
+  border-radius: 2rem;
+  width: 500px;
+  margin: auto;
+}
+
+.header{
+  height: 8rem;
+  border: 5px solid #006633;
+  background-color: #FFCC33;
+  padding: 5px;
+  box-shadow: 5px 5px #8B8000;
+}
+
+.top-title{
+  text-align: center;
+}
+
+.button{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.sub,
+.res{
+  cursor: pointer;
+  width: 50%;
+  border-radius: 2px;
+  padding: .75rem;
+  border-radius: .5rem;
+  background-color: #CF9FFF;
+}
+
+.form-headings{
+  padding: .25rem;
+  margin: 0 auto 1.25rem auto;
+}
+
+.inputs{
+  display: block;
+  width: 70%;
+  height: 2rem;
+  padding: .25rem .75rem;
+  border: 1px solid;
+  background: #E6E6FA;
+  border-radius: .5rem;
+}
+
+.input{
+  padding: .25rem .75rem;
+  border: 1px solid;
+  background: #E6E6FA;
+  border-radius: .5rem;
+}
+
+.address{
+  font-size: 1rem;
+}  
+.footer__copy{
+  text-align: center;
+}
+
+.footer{
+  padding-top: 1rem;
+  background-color: #FFCC33;
+}
+
+
+.address,
+.number{
+  line-height: 80%;
+}
+
+.img{
+  position: fixed;
+  bottom: 5%;
+  right: 3%;
+  display: block;
+  margin-left: auto;
+  max-height: 150px;
+  max-width: 200px;
+  width: 150px;
+  height: 120px;
+}
+
+#popup-container{
+  position: fixed;
+  background-color: #ccc;
+  border-radius: 2rem;
+  left: 25%;
+  top: 10%;
+  width: 50%;
+  height: auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  box-shadow: 0px 0px 10px #ccc;
+  display: none;
+}
+#close-btn{
+  float: right;
+  cursor: pointer;
+}
